@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Balaji Traders Finance</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#222;
+}
+
+/* HEADER */
+
+header{
+    background:#0f172a;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#f59e0b;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200') center/cover;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+    position:relative;
+}
+
+.hero::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.hero-content{
+    position:relative;
+    color:white;
+    max-width:600px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#f59e0b;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#d97706;
+}
+
+/* SERVICES */
+
+.services{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.services h2{
+    font-size:42px;
+    color:#1e3a8a;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#1e3a8a;
+}
+
+/* ABOUT */
+
+.about{
+    padding:80px 8%;
+    background:#eaf1ff;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#1e3a8a;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+/* CONTACT */
+
+.contact{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:40px;
+    color:#1e3a8a;
+    margin-bottom:25px;
+}
+
+.contact p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">Balaji Traders</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>Trusted Finance Service</h1>
+
+<p>
+Fast and reliable daily collection finance service.
+Simple process, quick approval and trusted support for your business needs.
+</p>
+
+<a href="#contact" class="btn">Contact Now</a>
+    <img src="dp.jpeg" width="300" height="220">
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services" class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Daily Collection</h3>
+<p>Easy daily payment plans for small businesses and shop owners.</p>
+</div>
+
+<div class="card">
+<h3>Quick Loan</h3>
+<p>Fast approval with minimum documentation and simple process.</p>
+</div>
+
+<div class="card">
+<h3>Business Support</h3>
+<p>Helping local businesses grow with trusted financial support.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2>About Balaji Traders</h2>
+
+<p>
+Balaji Traders provides trusted finance solutions with transparent and customer-friendly services.
+Our goal is to support local businesses with easy financial access.
+</p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 +91 9580431847</p>
+<p>📍 jalaun, Uttar predesh</p>
+<p>📧 pariha652@gmail.com</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 Balaji Traders | All Rights Reserved
+</footer>
+
+</body>
+</html>
